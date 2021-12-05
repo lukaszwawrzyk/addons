@@ -1,4 +1,4 @@
-version: 2.5.0
+version: 3.0.0
 slug: google_assistant
 name: Google Assistant SDK
 description: A virtual personal assistant developed by Google
@@ -22,6 +22,7 @@ options:
   project_id: null
 ports:
   9324/tcp: 9324
+  5000/tcp: 5000
 schema:
   client_secrets: str
   feedback:
