@@ -1,4 +1,4 @@
-version: 3.0.0
+version: 3.0.1
 slug: google_assistant
 name: Google Assistant SDK
 description: A virtual personal assistant developed by Google
@@ -9,7 +9,6 @@ arch:
   - armv7
   - amd64
 audio: true
-image: homeassistant/{arch}-addon-google_assistant
 init: false
 map:
   - share
